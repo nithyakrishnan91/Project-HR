@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="DataAccessLayer"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Users/admin/Downloads/Microsoft JDBC Driver 6.0 for SQL Server/sqljdbc_6.0/enu/sqljdbc42.jar"/>
-	<classpathentry kind="lib" path="C:/Users/admin/Downloads/Microsoft JDBC Driver 6.0 for SQL Server/sqljdbc_6.0/enu/sqljdbc41.jar"/>
-	<classpathentry kind="lib" path="C:/Users/admin/Downloads/Microsoft JDBC Driver 6.0 for SQL Server/sqljdbc_6.0/enu/sqljdbc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/admin/Downloads/Microsoft JDBC Driver 6.0 for SQL Server/sqljdbc_6.0/enu/sqljdbc4.jar"/>
+	<classpathentry kind="src" path="DataModels"/>
+	<classpathentry kind="src" path="CLI"/>
+	<classpathentry kind="src" path="CustomEvents"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/admin/Downloads/Microsoft JDBC Driver 6.0 for SQL Server/sqljdbc_6.0/enu/sqljdbc42.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/admin/Downloads/Microsoft JDBC Driver 6.0 for SQL Server/sqljdbc_6.0/enu/sqljdbc41.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/admin/Downloads/Microsoft JDBC Driver 6.0 for SQL Server/sqljdbc_6.0/enu/sqljdbc.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/admin/Downloads/Microsoft JDBC Driver 6.0 for SQL Server/sqljdbc_6.0/enu/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/AppData/Local/Microsoft/Windows/INetCache/IE/JZWDC514/activation[1].jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/javax.mail.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

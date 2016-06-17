@@ -1,4 +1,3 @@
-
 import java.sql.*;
 
 public class SqlConnection {
@@ -10,12 +9,11 @@ public class SqlConnection {
 	private SqlConnection(){
 	}
 	
-	public static Connection getConnection()
-	{	
+	public static Connection getConnection(){	
 		try {
 			if(_connection == null)
 			{				
-				_connection = connect();									
+				connect();									
 			}
 						
 		}
@@ -25,8 +23,24 @@ public class SqlConnection {
 		return _connection;
 	}
 	
-	private static Connection connect()
-	{
+	public static void closeConnection(){
+		try{
+			if(_connection != null)
+			{				
+				_connection.close();
+				_connection = null;
+			}			
+		}
+		catch (SQLException e) {			
+			e.printStackTrace();
+			
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}					
+	}
+	
+	private static void connect(){
 		try {
 			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 			
@@ -44,7 +58,7 @@ public class SqlConnection {
 		}
 		catch(Exception e) {
 			e.printStackTrace();
-		}		
-		return _connection;		
+		}					
 	}
+	
 }
