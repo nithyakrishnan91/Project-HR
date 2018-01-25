@@ -21,7 +21,7 @@ public class SeperationModel {
 			 dataAccess = new DataAccess();	
 			 if(!dataAccess.approveResignation(id)){
 				 System.out.println("Error in approving the resignation");
-			 }
+			 }			
 		} 
 		catch(Exception e) {
 			e.printStackTrace();

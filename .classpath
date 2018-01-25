@@ -9,7 +9,19 @@
 	<classpathentry exported="true" kind="lib" path="C:/Users/admin/Downloads/Microsoft JDBC Driver 6.0 for SQL Server/sqljdbc_6.0/enu/sqljdbc41.jar"/>
 	<classpathentry exported="true" kind="lib" path="C:/Users/admin/Downloads/Microsoft JDBC Driver 6.0 for SQL Server/sqljdbc_6.0/enu/sqljdbc.jar"/>
 	<classpathentry exported="true" kind="lib" path="C:/Users/admin/Downloads/Microsoft JDBC Driver 6.0 for SQL Server/sqljdbc_6.0/enu/sqljdbc4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/admin/AppData/Local/Microsoft/Windows/INetCache/IE/JZWDC514/activation[1].jar"/>
-	<classpathentry kind="lib" path="C:/Users/admin/Downloads/javax.mail.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/admin/AppData/Local/Microsoft/Windows/INetCache/IE/JZWDC514/activation[1].jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/admin/Downloads/javax.mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/jasperreports-6.0.0-project/jasperreports-6.0.0/dist/jasperreports-6.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/jasperreports-6.0.0-project/jasperreports-6.0.0/dist/jasperreports-fonts-6.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/jasperreports-6.0.0-project/jasperreports-6.0.0/dist/jasperreports-javaflow-6.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/jasperreports-6.0.0-project/jasperreports-6.0.0/lib/commons-beanutils-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/jasperreports-6.0.0-project/jasperreports-6.0.0/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/jasperreports-6.0.0-project/jasperreports-6.0.0/lib/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/jasperreports-6.0.0-project/jasperreports-6.0.0/lib/commons-javaflow-20060411.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/jasperreports-6.0.0-project/jasperreports-6.0.0/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/jasperreports-6.0.0-project/jasperreports-6.0.0/lib/groovy-all-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/jasperreports-6.0.0-project/jasperreports-6.0.0/lib/itextpdf-5.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/jasperreports-6.0.0-project/jasperreports-6.0.0/lib/itext-pdfa-5.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/AppData/Local/Microsoft/Windows/INetCache/IE/JZWDC514/DynamicJasper-5.0.4[1].jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

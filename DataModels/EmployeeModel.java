@@ -8,7 +8,7 @@ public class EmployeeModel {
 	// Getting Employee table column names
 
 	// Employee ID Check
-	public static Boolean employeeIDCheck(int emloyeeID) throws SQLException {
+	public Boolean employeeIDCheck(int emloyeeID) throws SQLException {
 		try {
 			int details = dataobj.getEmployeeID(emloyeeID);
 			if (details != -1)
